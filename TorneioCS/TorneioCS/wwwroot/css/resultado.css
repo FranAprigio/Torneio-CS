@@ -1,0 +1,46 @@
+﻿body {
+}
+
+.listaConteudo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    grid-gap: 20px 20px;
+    justify-items: center;
+}
+
+.headCardCompetidor {
+    color: white;
+    text-align: center !important;
+}
+
+.cardCompetidorResul {
+    background-position: center;
+    background-size: cover;
+    height: 310px;
+    width: 220px;
+    color: white;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: flex-end;
+    position: relative; /*Position relative is required*/
+}
+
+.dadosCompetidor {
+    color: white;
+    text-align: center !important;
+}
+
+
+
+.container_button {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+
+.btn btn-primary{
+    margin-bottom:25px;
+}

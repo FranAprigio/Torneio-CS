@@ -1,0 +1,16 @@
+﻿.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    margin: 0 auto;
+    grid-gap: 20px 20px;
+    justify-items: center;
+}
+
+.texto {
+    flex-basis: 40%
+}
+
+.imagem {
+    max-height: 300px;
+}

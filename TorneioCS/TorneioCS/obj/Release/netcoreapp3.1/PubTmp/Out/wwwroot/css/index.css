@@ -1,0 +1,54 @@
+﻿button{
+    margin-bottom:10px;
+}
+
+.text-center {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    grid-gap: 20px 20px;
+    justify-items: center;
+    color: white;
+}
+
+.cardCompetidor {
+    background-position: center;
+    background-color: white;
+    background-size: cover;
+    height: 310px;
+    width: 220px;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: flex-end;
+    position: relative; /*Position relative is required*/
+}
+
+.headCardCompetidor {
+    color: white;
+
+}
+
+.dadosCompetidor {
+    color: white;
+
+}
+
+.cardCompetidor.selectedCard {
+    border: 3px solid #FF00FF;
+
+}
+
+
+@media (max-width: 800px) {
+    .listaCards {
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .listaCards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

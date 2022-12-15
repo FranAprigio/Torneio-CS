@@ -1,0 +1,35 @@
+﻿@model ColocacaoTorneio
+
+<link href="~/css/resultado.css" rel="stylesheet" />
+
+<center>
+    <h1>Vencedor</h1>
+</center>
+
+<div class="listaConteudo">
+    <div class="cardCompetidorResul" style="background-image: url('/assets/cards/@(Model.Vencedor.Nome).png');">
+        <div class="card-body">
+            <div class="headCardCompetidor">
+                <span>@Model.Vencedor.Nome</span>
+            </div>
+            <div class="dadosCompetidor">
+                Idade: @Model.Vencedor.Idade
+                <br />
+                Total de Kills: @Model.Vencedor.TotalKill
+                <br />
+                Total de Partidas: @Model.Vencedor.TotalPartidas
+                <br />
+                Vitorias: @Model.Vencedor.Vitorias
+                <br />
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+
+
+<div class="container_button">
+    <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Index">Jogar Novamente</a>
+</div>
