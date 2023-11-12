@@ -2,7 +2,7 @@
 
 ## Introdução 📑
 
-Este é um projeto de torneio de luta baseado no jogo Pokemon.
+Este é um projeto de torneio de luta baseado no campeonato de csgo.
 Na tela principal haverá 20 competidores disponíveis, podendo apenas
 escolher 16 para participarem no torneio. Cada competidor possui
 estatísticas que decidirá se ele vencerá uma partida ou não.
